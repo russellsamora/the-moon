@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(250, 250, 240);
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  line-height: 1.6;
+}
+.logo--graphic {
+  width: 15em;
+  height: 15em;
+  position: relative;
+  overflow: hidden;
+  margin: 3em auto;
+}
+.moon, .eclipse {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1;
+}
+.eclipse {
+  background-color: rgb(250, 250, 240);
+  right: -27%;
+  top: -27%;
+}
+.moon--floater {
+  position: absolute;
+  z-index: 0;
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  transform-origin: center center;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.title-info {
+  text-align: center;
+  max-width: 40em;
+  margin: 1em auto;
+  padding: 0.5em;
+}
+.info--hed {
+  font-family: 'Alegreya', Georgia, serif;
+  font-size: 3.2em;
+  color: #343434;
+  
+}
+.info--dek {
+  font-size: 1.4em;
+  color: #676767;
+}
+
+.info--coming {
+  margin-top: 4em;
+  color: #9a9a9a;
+}
